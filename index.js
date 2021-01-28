@@ -189,6 +189,10 @@ class Student extends Lambdasian {
 	PRAssignment(subject) {
 		return `${this.name} has submitted a PR for ${subject}`;
 	}
+
+	sprintChallenge(subject) {
+		return `${this.name} has begun sprint challenge on ${subject}`;
+	}
 }
 
 /*
