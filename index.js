@@ -220,11 +220,11 @@ class ProjectManager extends Instructor {
 	}
 
 	debugsCode(obj, subject) {
-		this.PMName = this.name;
+		this.pmName = this.name;
 		this.studentName = obj.name;
 		this.subject = subject;
 
-		return `${this.PMName} debugs ${this.studentName}'s code on ${this.subject}`;
+		return `${this.pmName} debugs ${this.studentName}'s code on ${this.subject}`;
 	}
 }
 /*
